@@ -1,0 +1,142 @@
+section{
+    height: 100vh;
+    width: 100vw;
+	position: relative;
+	scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+
+.section-header{
+	padding: 0.75em;
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 3rem;
+	color: #ffffff;
+	font-family: monospace;
+}
+
+/*Section 1 - Home*/
+#home {
+	background: linear-gradient(60deg, #84432c, #05041c);
+	z-index: 2;
+}
+
+#home #bg_img {
+	height: inherit;
+}
+
+#home #intro-container{
+	color: white;
+	position: absolute;
+	top: 50%;
+	right: 0%;
+	transform: translate(-50%, -50%);
+}
+
+#home h1{
+	font-family: "Gochi Hand", cursive;
+  	font-weight: 900;
+	font-size: 5em;
+}
+
+#home h2{
+	font-size: 2em;
+	font-family:'Courier New', Courier, monospace;
+}
+
+
+/*Section 2 - Board*/
+#board{
+	background-color: #d24e1d;
+}
+
+
+/*Section 3 - Coding*/
+#coding{
+	background-color: #4d4d4d;
+}
+
+
+/*Section 4 - Writings*/
+#writings{
+	background-color: #84432c;
+}
+
+
+/*Section 5 - Music*/
+#music{
+	background-color: #d23d56;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	z-index: 1;
+}
+
+#music iframe{
+	border-radius: 1rem;
+	box-shadow: 0 0 1rem #ffffff;
+}
+
+#music #music-controls{
+	width: 10vw;
+	height: 50%;
+	justify-content: space-around;
+	display: flex;
+	flex-direction: column;
+}
+
+#music #music-controls img{
+	height: 5rem;
+	cursor: pointer;
+}
+
+#music #music-show-random:hover{
+	scale: 1.1;
+	transition: 500ms;
+	animation: dice-magic 1200ms linear;
+}
+
+@keyframes dice-magic {
+	0%{ transform: rotate(0deg) }
+	25%{ transform: rotate(-30deg) }
+	50%{ transform: rotate(20deg) }
+	75%{ transform: rotate(-10deg) }
+	100%{ transform: rotate(0deg) }
+}
+
+#music #music-show-last:hover{
+	transform: rotate(-360deg);
+	transition: 1200ms;
+}
+
+
+/*Section 6 - Socials*/
+#socials{
+	background-color: #05041c;
+	padding: 2rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+  	grid-gap: 1em;
+}
+
+#socials a{
+	padding: 1rem;
+	height: 100%;
+	width: 100%;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+#socials a img {
+	height: 7.5em;
+}
+
+#socials a:not(:hover) { opacity: 0.25 }
+
+#socials a:hover {
+	opacity: 1;
+	transform: scale(1.1);
+}
