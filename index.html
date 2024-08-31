@@ -13,20 +13,24 @@
     <link rel="stylesheet" href="./static/css/sections.css">
     <script defer src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script defer src="./static/js/script.js"></script>
+    <script defer src="./static/js/writings.js"></script>
     <script defer src="https://open.spotify.com/embed/iframe-api/v1"></script>
     <script defer src="./static/js/music.js"></script>
 </head>
 <body>
     <section id="home">
-        <img draggable="false" id="bg_img" src="./assets/images/ansu(2)_silhouette.png" alt="Ansuman" ondragstart="return false">
+        <img draggable="false" id="bg_img" src="./assets/images/ansu(2)_silhouette.svg" alt="Ansuman" ondragstart="return false">
         <div id="intro-container">
             <h1>I'm Ansuman Dhar</h1>
             <h2>I'm into <span id="intrests"></span></h2>
         </div>
     </section>
     
-    <section id="board">
-        <span class="under-construction">Under Construction 🏗</span>
+    <section id="redirect-board">
+        <h1 class="section-header" style="position: relative">Redirect Board</h1>
+        <div class="container">
+            <span class="under-construction">Seems Empty Here 🙄</span>
+        </div>
     </section>
 
     <section id="coding">
@@ -34,11 +38,17 @@
     </section>
 
     <section id="writings">
-        <span class="under-construction">Under Construction 🏗</span>
+        <h1 class="section-header" style="position: relative">Writings ✍🏻</h1>
+        <div class="container"></div>
+        <dialog id="writings-content-modal">
+            <button onclick="this.parentElement.close()" id="writings-content-modal-close-btn">X</button>
+            <h2 id="writings-content-modal-title"></h2>
+            <p id="writings-content-modal-body"></p>
+        </dialog>
     </section>
     
     <section id="music">
-        <h1 class="section-header">My <span style="font-family: 'Noto Color Emoji', 'Caveat', cursive">✨ favourites ✨</span></h1>
+        <h1 class="section-header"><span style="font-family: 'Courier New', Courier, monospace">My</span> ✨ favourites ✨</h1>
         <div id="spotify-embed"></div>
         <div id="music-controls">
             <img loading="lazy" draggable="false" role="button" id="music-show-random" src="./assets/buttons/dice.svg" alt="Random Track" title="Get a Random Track" />
