@@ -17,6 +17,9 @@ typewriter
   .typeString('<span style="font-family: Caveat">Poetry</span>')
   .pauseFor(1500)
   .deleteAll()
-  .typeString('<span style="font-family: Caveat">Aeronautics</span>')
+  .typeString('<span style="font-family: Caveat">Aviation</span>')
+  .pauseFor(2000)
+  .deleteAll()
+  .typeString('<span style="font-family: Caveat">Space</span>')
   .pauseFor(2000)
   .start();
