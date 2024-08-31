@@ -1,9 +1,26 @@
+const writings = [
+    ['shayri', 'Hormones', [
+        "Maano na maano meri baatein",
+        "Gulabo ki tarah mehekti hai",
+        "Par kitni baar batao tum ko ki inn",
+        "Gulabo ki tahani me kaatien bhi hote hai",
+        "Baat me ek farmau",
+        "Agar ruthe na ye sansar mujhse",
+        "Agar ruthe gayi ye duniya toh fir",
+        "Batau me ye baatein kisse",
+        "Lagte dono ek dusre ke liye hai",
+        "Log kehte hai ye do dilo ka mel hai",
+        "Pyar vyar kuch nahi hota mere dost",
+        "Sab hormones ka khel hai",
+    ].join('\n')],
+];
+
 const contentModal = document.getElementById("writings-content-modal");
 
 contentModal.addEventListener('click', (event) => { if (event.target === contentModal) contentModal.close() });
 contentModal.addEventListener('close', () => document.documentElement.classList.remove('no-scroll'));
 
-function createCard(title, footer, content) {
+function createWriteCard(title, footer, content) {
     const card = document.createElement("div");
     card.classList.add("card");
     card.addEventListener('click', () => {
@@ -23,4 +40,4 @@ function createCard(title, footer, content) {
     document.getElementById("writings").getElementsByClassName("container")[0].append(card);
 }
 
-createCard("Hormones", 'shayri', "Maano na maano meri baatein\nGulabo ki tarah mehekti hai\nPar kitni baar batao tum ko ki inn\nGulabo ki tahani me kaatien bhi hote hai\nBaat me ek farmau\nAgar ruthe na ye sansar mujhse\nAgar ruthe gayi ye duniya toh fir\nBatau me ye baatein kisse\nLagte dono ek dusre ke liye hai\nLog kehte hai ye do dilo ka mel hai\nPyar vyar kuch nahi hota mere dost\nSab hormones ka khel hai");
+for (let i = 0; i < writings.length; i++) createWriteCard(writings[i][1], writings[i][0], writings[i][2]);

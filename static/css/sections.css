@@ -92,11 +92,12 @@ section{
 	top: 50%;
 	right: 5%;
 	transform: translateY(-50%);
+	text-align: right;
 }
 
 #home h1{
 	font-family: "Gochi Hand", cursive;
-  	font-weight: 900;
+	font-weight: 900;
 	font-size: 5em;
 }
 
@@ -206,6 +207,8 @@ section{
 	height: 5rem;
 	cursor: pointer;
 }
+
+#music #music-show-random{ transition: 300ms }
 
 #music #music-show-random:hover{
 	scale: 1.1;

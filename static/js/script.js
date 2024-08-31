@@ -2,7 +2,7 @@
 window.addEventListener('contextmenu', (e) => e.preventDefault());
 
 //Section - Home
-const typewriter = new Typewriter(document.getElementById('intrests'), { loop: true, delay: 100 });
+const typewriter = new Typewriter(document.getElementById('intrests'), { loop: true, delay: 150 });
 typewriter
   .pauseFor(2000)
   .typeString('<span style="font-family: Caveat">Music</span>')
