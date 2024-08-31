@@ -51,10 +51,10 @@ section{
 	transition: 200ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
-.card-title{
+.card-main{
 	padding: 0.5em;
 	width: 100%;
-	flex-grow: 3;
+	height: 75%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -62,9 +62,14 @@ section{
 	font-size: 2em;
 }
 
+.card-main > *{
+	width: inherit;
+	height: inherit;
+}
+
 .card-footer{
 	width: 100%;
-	flex-grow: 1;
+	height: 25%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
