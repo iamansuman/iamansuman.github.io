@@ -3,15 +3,25 @@ const writings = [
         "Maano na maano meri baatein",
         "Gulabo ki tarah mehekti hai",
         "Par kitni baar batao tum ko ki inn",
-        "Gulabo ki tahani me kaatien bhi hote hai",
+        "Gulabo ki tahani me kaatien bhi hote hai\n",
         "Baat me ek farmau",
         "Agar ruthe na ye sansar mujhse",
         "Agar ruthe gayi ye duniya toh fir",
-        "Batau me ye baatein kisse",
+        "Batau me ye baatein kisse\n",
         "Lagte dono ek dusre ke liye hai",
         "Log kehte hai ye do dilo ka mel hai",
         "Pyar vyar kuch nahi hota mere dost",
         "Sab hormones ka khel hai",
+    ].join('\n')],
+    ['shayri', 'Dark Energy', [
+        "Naaraz hai kya zindagi mujhse",
+        "Batana zara ruthe hue kyu ho tum",
+        "Dil darzano ka bojh utha raha hai",
+        "Aur yaha toffe me mil rahe hai bas gum\n",
+        "Ek iltezaa hai mera",
+        "Iqraar kar lo tum",
+        "Bas ruthne ki wajah bata do",
+        "Agge mana lenge tumko hum"
     ].join('\n')],
 ];
 
@@ -30,7 +40,7 @@ function createWriteCard(title, footer, content) {
         contentModal.showModal();
     });
     const cardTitle = document.createElement("h1");
-    cardTitle.classList.add("card-title");
+    cardTitle.classList.add("card-main");
     cardTitle.innerText = title;
     card.append(cardTitle);
     const cardFooter = document.createElement("footer");
