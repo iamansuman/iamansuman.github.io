@@ -16,6 +16,13 @@ const spotifyTrackIDsStore = [
     '19XDJlw6WxC4XOKC1LGKid',   //Drowning
     '7McyFHuwBA8n10GnovV4Zo',   //Beautiful Heartbeat
     '4HulmrpL8ZdcpY9817B0Qt',   //New New New
+    '4lJNen4SMTIJMahALc3DcB',   //Thunderclouds
+    '6Dma0t0hOe6Bd6u5YRKF3n',   //No New Friends
+    '47OVNnZJzIkrsEiZ4n187p',   //Mama
+    '5ZUIPLoTLJZrPQh2kFZEUM',   //Addicted
+    '77Y7tccX9Hx5iClDr39uy9',   //Hollywood's Bleeding
+    '2iUXsYOEPhVqEBwsqP70rE',   //YoungBlood
+    '0hNduWmlWmEmuwEFcYvRu1',   //Sunset Lover
     '4Dvkj6JhhA12EX05fT7y2e',   //As It Was
     '1YWr18dWRmuvPgAsPBsOow',   //Forget You
     '59IA01UnxFiJhxWXpG24mM',   //Disco Cone
@@ -33,6 +40,7 @@ const spotifyTrackIDsStore = [
     '7cflqPPi3zWfLFRRBTWeh6',   //talk is overrated
     '6qJrmD6CXKWkWcsYwu9AV3',   //Aathma Raama
     '0ce9G1z2SstCXHJ9gTg6PB',   //Pani da
+    '3APdIdF8H0jsxSuGOqXedS',   //Kabhi Kabhi Aditi
     '3uB2mkp8ovjiuJA734dbGe',   //Chalo Chalein
     '7qigtGsmiJ9U41jqQ19VzH',   //Faagun Haway
     '5mPaoaZenCkrQGmL3XM6u6',   //Amar Praner Manush
