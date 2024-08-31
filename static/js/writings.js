@@ -1,11 +1,15 @@
 const contentModal = document.getElementById("writings-content-modal");
 
+contentModal.addEventListener('click', (event) => { if (event.target === contentModal) contentModal.close() });
+contentModal.addEventListener('close', () => document.documentElement.classList.remove('no-scroll'));
+
 function createCard(title, footer, content) {
     const card = document.createElement("div");
     card.classList.add("card");
     card.addEventListener('click', () => {
         document.getElementById('writings-content-modal-title').innerText = title;
         document.getElementById('writings-content-modal-body').innerText = content;
+        document.documentElement.classList.add('no-scroll');
         contentModal.showModal();
     });
     const cardTitle = document.createElement("h1");

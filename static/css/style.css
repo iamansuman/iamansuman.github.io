@@ -1,48 +1,51 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    user-select: none;
+* {
+	margin: 0;
+	padding: 0;
+  	box-sizing: border-box;
+  	user-select: none;
 }
 
-html{
-    overflow-x: hidden;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
-    animation: animatedcursor 750ms infinite;
+html {
+  	overflow-x: hidden;
+  	overflow-y: scroll;
+  	scroll-snap-type: y mandatory;
+  	scroll-behavior: smooth;
+  	animation: animatedcursor 750ms infinite;
 }
 
-.disabled{
-  opacity: 0.7;
-  pointer-events: none;
+.no-scroll{
+	overflow-y: hidden;
 }
 
-.under-construction{
-  padding: 1rem;
-  text-wrap: nowrap;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 4rem;
-  font-family: 'Noto Color Emoji', monospace;
-  font-weight: 900;
-  background: rgba(255, 255, 255, 0.75);
-  border-radius: 1rem;
-  
+.disabled {
+  	opacity: 0.7;
+  	pointer-events: none;
 }
 
-@keyframes animatedcursor{
-  0%  { cursor: url("../../assets/cursors/frame_00_delay-0.01s.webp"), auto }
-  10% { cursor: url("../../assets/cursors/frame_01_delay-0.01s.webp"), auto }
-  20% { cursor: url("../../assets/cursors/frame_02_delay-0.01s.webp"), auto }
-  30% { cursor: url("../../assets/cursors/frame_03_delay-0.01s.webp"), auto }
-  40% { cursor: url("../../assets/cursors/frame_04_delay-0.01s.webp"), auto }
-  50% { cursor: url("../../assets/cursors/frame_05_delay-0.01s.webp"), auto }
-  60% { cursor: url("../../assets/cursors/frame_06_delay-0.01s.webp"), auto }
-  70% { cursor: url("../../assets/cursors/frame_07_delay-0.01s.webp"), auto }
-  80% { cursor: url("../../assets/cursors/frame_08_delay-0.01s.webp"), auto }
-  90% { cursor: url("../../assets/cursors/frame_09_delay-0.01s.webp"), auto }
-  100%{ cursor: url("../../assets/cursors/frame_00_delay-0.01s.webp"), auto }
+.under-construction {
+	padding: 1rem;
+	text-wrap: nowrap;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 4rem;
+	font-family: "Noto Color Emoji", monospace;
+	font-weight: 900;
+	background: rgba(255, 255, 255, 0.75);
+	border-radius: 1rem;
+}
+
+@keyframes animatedcursor {
+	0%	{ cursor: url("../../assets/cursors/frame_00_delay-0.01s.webp"), auto }
+	10%	{ cursor: url("../../assets/cursors/frame_01_delay-0.01s.webp"), auto }
+	20%	{ cursor: url("../../assets/cursors/frame_02_delay-0.01s.webp"), auto }
+	30%	{ cursor: url("../../assets/cursors/frame_03_delay-0.01s.webp"), auto }
+	40%	{ cursor: url("../../assets/cursors/frame_04_delay-0.01s.webp"), auto }
+	50%	{ cursor: url("../../assets/cursors/frame_05_delay-0.01s.webp"), auto }
+	60%	{ cursor: url("../../assets/cursors/frame_06_delay-0.01s.webp"), auto }
+	70%	{ cursor: url("../../assets/cursors/frame_07_delay-0.01s.webp"), auto }
+	80%	{ cursor: url("../../assets/cursors/frame_08_delay-0.01s.webp"), auto }
+	90%	{ cursor: url("../../assets/cursors/frame_09_delay-0.01s.webp"), auto }
+	100%{ cursor: url("../../assets/cursors/frame_00_delay-0.01s.webp"), auto }
 }
