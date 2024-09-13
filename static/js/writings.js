@@ -23,6 +23,28 @@ const writings = [
         "Bas ruthne ki wajah bata do",
         "Agge mana lenge tumko hum"
     ].join('\n')],
+    ['poem', 'Divine Soul', [
+        "In this lonely world of mine",
+        "Where this soul tries to find",
+        "Neither ruby, silver or gold",
+        "But another soul divine.\n",
+        "The holy soul tries hard",
+        "But in this world of vicious",
+        "It fails so many times",
+        "He gives up for a moment",
+        "Thinking he will be fine.\n",
+        "But in the corner of his heart",
+        "He wails so many times",
+        "And this cruel world",
+        "Fails to understand his mind",
+        "He gives up for a moment",
+        "Thinking he will be fine\n",
+        "And again",
+        "This soul tries hard to find",
+        "Neither ruby, silver or gold",
+        "But another soul divine",
+        "But another soul divine"
+    ].join('\n')],
 ];
 
 const contentModal = document.getElementById("writings-content-modal");
