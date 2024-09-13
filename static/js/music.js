@@ -38,6 +38,9 @@ const spotifyTrackIDsStore = [
     '4aSfgWmRa9KsISD4Jmx7QB',   //This town
     '3ZCTVFBt2Brf31RLEnCkWJ',   //everything I wanted
     '7cflqPPi3zWfLFRRBTWeh6',   //talk is overrated
+    '1qZMPmpD1jDcOA7gZ6TCde',   //One (Your Name)
+    '2V65y3PX4DkRhy1djlxd9p',   //Don't you worry child
+    '22dUzMFttcR3uU17NcOAIv',   //Desire
     '6qJrmD6CXKWkWcsYwu9AV3',   //Aathma Raama
     '0ce9G1z2SstCXHJ9gTg6PB',   //Pani da
     '3APdIdF8H0jsxSuGOqXedS',   //Kabhi Kabhi Aditi
