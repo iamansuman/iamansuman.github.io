@@ -42,11 +42,19 @@ const spotifyTrackIDsStore = [
     '2V65y3PX4DkRhy1djlxd9p',   //Don't you worry child
     '22dUzMFttcR3uU17NcOAIv',   //Desire
     '6qJrmD6CXKWkWcsYwu9AV3',   //Aathma Raama
-    '0ce9G1z2SstCXHJ9gTg6PB',   //Pani da
+    '09CuEMVh0BZVrejiltSB1K',   //Pani da
     '3APdIdF8H0jsxSuGOqXedS',   //Kabhi Kabhi Aditi
     '3uB2mkp8ovjiuJA734dbGe',   //Chalo Chalein
     '7qigtGsmiJ9U41jqQ19VzH',   //Faagun Haway
-    '5mPaoaZenCkrQGmL3XM6u6',   //Amar Praner Manush
+    '6xfEKqN6bnqs6QfqQm8vXf',   //Bawshonto Eshe Geche
+    '1oHClQEgDmmbcEx12Kc5nZ',   //4 Minutes
+    '0fQvqfFxzlYjkIDmn6hOCE',   //Offshore - DC Symphonic R. Remix
+    '1CmUZGtH29Kx36C1Hleqlz',   //Thrift Shop
+    '0GRc3eGTg8HBdWLRGYgqIc',   //Azizam
+    '4NczzeHBQPPDO0B9AAmB8d',   //Assumptions
+    '2zCO8w8puVE1frDRpCBLuD',   //Coffee
+    '7ycWLEP1GsNjVvcjawXz3z',   //Praise The Lord
+    '3eekarcy7kvN4yt5ZFzltW',   //HIGHEST IN THE ROOM
 ];
 const spotifyTrackIDs = [...spotifyTrackIDsStore];
 const discardedSpotifyIDs = [];
