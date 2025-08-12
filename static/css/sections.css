@@ -104,11 +104,16 @@ section{
 	font-family: "Gochi Hand", cursive;
 	font-weight: 900;
 	font-size: 5em;
+	line-height: 2em;
 }
 
 #home h2{
 	font-size: 2em;
 	font-family:'Courier New', Courier, monospace;
+}
+
+#home #intrests{
+	font-family: Caveat;
 }
 
 
