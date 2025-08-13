@@ -45,6 +45,8 @@ const spotifyTrackIDsStore = [
     '09CuEMVh0BZVrejiltSB1K',   //Pani da
     '3APdIdF8H0jsxSuGOqXedS',   //Kabhi Kabhi Aditi
     '3uB2mkp8ovjiuJA734dbGe',   //Chalo Chalein
+    '3EFGRGsshk0NWidcXfhKvw',   //Dil To Bacha Hai
+    '2DDXGSjDRHsoTNV1XsfXbq',   //Rangabati
     '7qigtGsmiJ9U41jqQ19VzH',   //Faagun Haway
     '6xfEKqN6bnqs6QfqQm8vXf',   //Bawshonto Eshe Geche
     '1oHClQEgDmmbcEx12Kc5nZ',   //4 Minutes
