@@ -92,7 +92,7 @@ function createWriteCard(title, footer, content, link) {
     card.addEventListener('click', () => {
         document.getElementById('writings-content-modal-title').innerText = title;
         document.getElementById('writings-content-modal-body').innerText = content;
-        document.getElementById('writings-content-modal-link').hidden = (link == '');
+        document.getElementById('writings-content-modal-link').style.display = (link == '') ? 'none' : 'block';
         document.getElementById('writings-content-modal-link').href = link;
         document.documentElement.classList.add('no-scroll');
         contentModal.showModal();
