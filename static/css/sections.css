@@ -190,6 +190,14 @@ section{
 	line-height: 1.5em;
 }
 
+#writings #writings-content-modal-link{
+	color: #b9ff22;
+	font-weight: bolder;
+	font-family: 'Courier New', Courier, monospace;
+	display: block;
+	padding: 2em 0;
+}
+
 
 /*Section 5 - Music*/
 #music{

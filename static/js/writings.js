@@ -1,5 +1,5 @@
 const writings = [
-    ['shayri', 'Hormones', [
+    ['shayri', 'Hormones', '', [
         "Maano na maano meri baatein",
         "Gulabo ki tarah mehekti hai",
         "Par kitni baar batao tum ko ki inn",
@@ -13,7 +13,7 @@ const writings = [
         "Pyar vyar kuch nahi hota mere dost",
         "Sab hormones ka khel hai",
     ].join('\n')],
-    ['shayri', 'Dark Energy', [
+    ['shayri', 'Dark Energy', '',[
         "Naaraz hai kya zindagi mujhse",
         "Batana zara ruthe hue kyu ho tum",
         "Dil darzano ka bojh utha raha hai",
@@ -23,7 +23,7 @@ const writings = [
         "Bas ruthne ki wajah bata do",
         "Agge mana lenge tumko hum"
     ].join('\n')],
-    ['poem', 'Divine Soul', [
+    ['poem', 'Divine Soul', '', [
         "In this lonely world of mine",
         "Where this soul tries to find",
         "Neither ruby, silver or gold",
@@ -52,12 +52,14 @@ const contentModal = document.getElementById("writings-content-modal");
 contentModal.addEventListener('click', (event) => { if (event.target === contentModal) contentModal.close() });
 contentModal.addEventListener('close', () => document.documentElement.classList.remove('no-scroll'));
 
-function createWriteCard(title, footer, content) {
+function createWriteCard(title, footer, content, link) {
     const card = document.createElement("div");
     card.classList.add("card");
     card.addEventListener('click', () => {
         document.getElementById('writings-content-modal-title').innerText = title;
         document.getElementById('writings-content-modal-body').innerText = content;
+        document.getElementById('writings-content-modal-link').hidden = (link == '');
+        document.getElementById('writings-content-modal-link').href = link;
         document.documentElement.classList.add('no-scroll');
         contentModal.showModal();
     });
@@ -72,4 +74,4 @@ function createWriteCard(title, footer, content) {
     document.getElementById("writings").getElementsByClassName("container")[0].append(card);
 }
 
-for (let i = 0; i < writings.length; i++) createWriteCard(writings[i][1], writings[i][0], writings[i][2]);
+for (let i = 0; i < writings.length; i++) createWriteCard(writings[i][1], writings[i][0], writings[i][3], writings[i][2]);
