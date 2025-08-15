@@ -13,8 +13,6 @@ const spotifyTrackIDsStore = [
     '3XfGM99TOeyPsnDtgTqtkT',   //Addicted to You
     '3uEu7hcvgrSOrgnMxzqugh',   //Pure Grinding
     '2eGxoza48lVK6jtmQ0g1yR',   //I Could be the one
-    '19XDJlw6WxC4XOKC1LGKid',   //Drowning
-    '7McyFHuwBA8n10GnovV4Zo',   //Beautiful Heartbeat
     '4HulmrpL8ZdcpY9817B0Qt',   //New New New
     '4lJNen4SMTIJMahALc3DcB',   //Thunderclouds
     '6Dma0t0hOe6Bd6u5YRKF3n',   //No New Friends
