@@ -22,7 +22,6 @@ const spotifyTrackIDsStore = [
     '2iUXsYOEPhVqEBwsqP70rE',   //YoungBlood
     '0hNduWmlWmEmuwEFcYvRu1',   //Sunset Lover
     '4Dvkj6JhhA12EX05fT7y2e',   //As It Was
-    '1YWr18dWRmuvPgAsPBsOow',   //Forget You
     '59IA01UnxFiJhxWXpG24mM',   //Disco Cone
     '6sg284TefDkBpFh0317Agp',   //Needs
     '4HDC7Mo6uLTujRvHymiXDf',   //Mwaki
