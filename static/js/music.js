@@ -47,6 +47,7 @@ const spotifyTrackIDsStore = [
     '2DDXGSjDRHsoTNV1XsfXbq',   //Rangabati
     '7qigtGsmiJ9U41jqQ19VzH',   //Faagun Haway
     '6xfEKqN6bnqs6QfqQm8vXf',   //Bawshonto Eshe Geche
+    '2DCOkLmpcfGjmdSTp2SFpW',   //Gari Chole Na
     '1oHClQEgDmmbcEx12Kc5nZ',   //4 Minutes
     '0fQvqfFxzlYjkIDmn6hOCE',   //Offshore - DC Symphonic R. Remix
     '1CmUZGtH29Kx36C1Hleqlz',   //Thrift Shop
@@ -56,6 +57,8 @@ const spotifyTrackIDsStore = [
     '2zCO8w8puVE1frDRpCBLuD',   //Coffee
     '7ycWLEP1GsNjVvcjawXz3z',   //Praise The Lord
     '3eekarcy7kvN4yt5ZFzltW',   //HIGHEST IN THE ROOM
+    '5P2ZOnf9sfoOywiVRuaVZp',   //Saltwater
+    '0gTeDTRPPVAYcdyPXhWqt2',   //Don't Give Up
 ];
 const spotifyTrackIDs = [...spotifyTrackIDsStore];
 const discardedSpotifyIDs = [];
