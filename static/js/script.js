@@ -37,7 +37,7 @@ typewriterIntrests
   .typeString('Coding')
   .pauseFor(2000)
   .deleteAll()
-  .typeString('Algos')
+  .typeString('Problem-Solving')
   .pauseFor(2000)
   .deleteAll()
   .typeString('Poetry')
@@ -46,7 +46,7 @@ typewriterIntrests
   .typeString('Aviation')
   .pauseFor(2000)
   .deleteAll()
-  .typeString('GeoPolitics')
+  .typeString('Open-Source')
   .pauseFor(2000)
   .deleteAll()
   .start();
