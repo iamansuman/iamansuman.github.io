@@ -29,8 +29,6 @@ const spotifyTrackIDsStore = [
     '6QgjcU0zLnzq5OrUoSZ3OK',   //Feel it Still
     '5EWPGh7jbTNO2wakv8LjUI',   //Free Bird
     '1v6CmIvbcquM8rKR33Kc6e',   //Life Could be a dream
-    '4axSuOg3BqsowKjRpj59RU',   //Carolina
-    '0ug5NqcwcFR2xrfTkc7k8e',   //Style
     '2K7xn816oNHJZ0aVqdQsha',   //Softcore
     '1SdItcSOTD14tvIo8UzA6k',   //Summer Vibe
     '4aSfgWmRa9KsISD4Jmx7QB',   //This town
