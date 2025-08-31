@@ -59,6 +59,10 @@ const spotifyTrackIDsStore = [
     '7J1uxwnxfQLu4APicE5Rnj',   //Bille Jean
     '2bCQHF9gdG5BNDVuEIEnNk',   //Smooth Criminal
     '7LRMbd3LEoV5wZJvXT1Lwb',   //T.N.T
+    '1ndptsbP6s7WV3fTnp1j74',   //I'm Not Alone
+    '3BMpJkaH1nSLqlw7Vr2THM',   //Good On You
+    '1lhpyjqKywDlNjw4nii2ZO',   //Watch Out For This
+    '3AWDeHLc88XogCaCnZQLVI',   //Cry For Me
 ];
 const spotifyTrackIDs = [...spotifyTrackIDsStore];
 const discardedSpotifyIDs = [];
