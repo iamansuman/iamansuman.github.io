@@ -56,6 +56,9 @@ const spotifyTrackIDsStore = [
     '3eekarcy7kvN4yt5ZFzltW',   //HIGHEST IN THE ROOM
     '5P2ZOnf9sfoOywiVRuaVZp',   //Saltwater
     '0gTeDTRPPVAYcdyPXhWqt2',   //Don't Give Up
+    '7J1uxwnxfQLu4APicE5Rnj',   //Bille Jean
+    '2bCQHF9gdG5BNDVuEIEnNk',   //Smooth Criminal
+    '7LRMbd3LEoV5wZJvXT1Lwb',   //T.N.T
 ];
 const spotifyTrackIDs = [...spotifyTrackIDsStore];
 const discardedSpotifyIDs = [];
