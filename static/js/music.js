@@ -63,6 +63,7 @@ const spotifyTrackIDsStore = [
     '3BMpJkaH1nSLqlw7Vr2THM',   //Good On You
     '1lhpyjqKywDlNjw4nii2ZO',   //Watch Out For This
     '3AWDeHLc88XogCaCnZQLVI',   //Cry For Me
+    '05mDqQ0ByyxQrBJaU37u5D',   //smoke that calculus
 ];
 const spotifyTrackIDs = [...spotifyTrackIDsStore];
 const discardedSpotifyIDs = [];
