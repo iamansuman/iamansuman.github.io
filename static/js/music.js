@@ -59,9 +59,22 @@ const spotifyTrackIDsStore = [
     '7J1uxwnxfQLu4APicE5Rnj',   //Bille Jean
     '2bCQHF9gdG5BNDVuEIEnNk',   //Smooth Criminal
     '7LRMbd3LEoV5wZJvXT1Lwb',   //T.N.T
+    '2zYzyRzz6pRmhPzyfMEC8s',   //Highway to Hell
     '1ndptsbP6s7WV3fTnp1j74',   //I'm Not Alone
     '3BMpJkaH1nSLqlw7Vr2THM',   //Good On You
     '1lhpyjqKywDlNjw4nii2ZO',   //Watch Out For This
+    '4DuUwzP4ALMqpquHU0ltAB',   //Tyler Herro
+    '623rRTKwGmgjH6sjE9uWLh',   //Scatman
+    '19cL3SOKpwnwoKkII7U3Wh',   //Geronimo
+    '1rqqCSm0Qe4I9rUvWncaom',   //High Hopes
+    '6J2f8YFQ3A0DCfjVWYadbH',   //Good Day
+    '1qCmZnC1FUpNgOydIzqIPC',   //Bad Child
+    '4qDHt2ClApBBzDAvhNGWFd',   //Crab Rave
+    '5i2JGF65pHKSfMEjSMrBC3',   //Jesus in LA
+    '4fK2NU9UyQJV74ZGiSVYsr',   //Carry On (NR Remix)
+    '1fDBtjWSopzl5iJvWfNyB1',   //Slav King
+    '67hbP9PFQZrb4XZc3TzB0s',   //Rasputin
+    '0RBw4ODUQPO4cuAOZtBGga',   //Hurts me
     '3AWDeHLc88XogCaCnZQLVI',   //Cry For Me
     '05mDqQ0ByyxQrBJaU37u5D',   //smoke that calculus
 ];
